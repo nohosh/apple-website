@@ -1,0 +1,132 @@
+/*---------------------------------*/
+/*BASIC SETUP*/
+/*---------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html ,body{
+    background-color: #fff;
+    color: #222;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix { zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+
+/*---------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*---------------------------------*/
+
+h1 {
+  text-align: center;
+  margin-top: 55px;
+  font-weight: bold;
+  font-size: 280%;
+}
+
+p {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 120%;
+  word-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+
+  font-weight: 350;
+  font-size: 100%;
+  margin-right: 30px;
+
+
+}
+
+section {
+
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 400px;
+  background-color: #f1f1f1;
+}
+ .anchor{
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+/*---------------------------------*/
+/*HEADER*/
+/*---------------------------------*/
+
+/*----NAVIGATION------*/
+
+
+nav {
+  font-size: 70%;
+  background-color: rgba(41, 41, 41, 0.94);
+}
+ul{
+  width: 100%;
+  text-align: center;
+  margin: 0 20px;
+}
+
+
+li {
+  color: #fff;
+
+  list-style: none;
+  padding: 5px 0;
+  display: inline-block;
+  padding: 15px 0 ;
+  margin-right: 80px;
+}
+
+
+
+
+/*---------------------------------*/
+/*iPhone*/
+/*---------------------------------*/
+
+.iPhoneX{
+    background-image: url("https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/x/iphone-x-gallery2-2017?wid=835&hei=641&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1506704361597");
+    background-repeat: no-repeat;
+    background-size: 1050px 800px;
+    background-position: 50% 20%;
+}
+
+
+
+/*---------------------------------*/
+/*iPad*/
+/*---------------------------------*/
+
+.iPad {
+    background-image: url("https://www.apple.com/v/ipad-9.7/e/images/meta/og_image.png?201805020321");
+    background-repeat: no-repeat;
+    background-size: 1050px 800px;
+    background-position: 50% 20%;
+    background-color: #ececec;
+}
